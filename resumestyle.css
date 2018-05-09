@@ -1,0 +1,98 @@
+* {
+    background: rgb(68, 68, 68);
+    color: #FFFFFF;
+}
+body {
+    margin: 40 auto;
+    border: 4px solid rgb(120, 120, 120);
+    width: 560px;
+    box-align: center;
+    margin: 40px auto;
+}
+main {
+    border-top: 1px solid rgb(116, 116, 116);
+    border-bottom: 1px solid rgb(116, 116, 116);
+    margin: 0px 30px;
+}
+header {
+    text-align: center;
+}
+footer {
+    margin: 20px auto;
+    text-align: center;
+}
+h1 {
+    font-weight: 200;
+    font-style: italic;
+}
+h2 {
+    text-align: left;
+    font-family: sans-serif, Helvetica, Arial;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+h3 {
+    color: rgb(192, 192, 192);
+    font-family: sans-serif, Helvetica, Arial;
+    font-weight: 600;
+    font-size: 17px;
+    text-transform: uppercase;
+    line-height: 10px;
+    margin: 30px 0px 10px 0px;
+}
+p {
+    font-size: 15px;
+}
+a {
+    color: rgb(94, 212, 165);
+    font-weight: 600;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+li {
+    font-weight: 600;
+    font-family: sans-serif, Helvetica, Arial;
+}
+.company {
+    font-size: 15px;
+    font-weight: 100;
+}
+.dates {
+    color: rgb(192, 192, 192);
+    font-size: 13px;
+    font-weight: 100;
+}
+.summary {
+    color: rgb(192, 192, 192);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 100px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.active {
+    color: #FFFFFF;
+    text-decoration: none;
+    pointer-events: none;
+    cursor: default;
+}
+footer a:before {
+    content: " | ";
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: rgb(106, 106, 106);
+}
+
+footer a:first-child:before{
+    content: '';
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: rgb(106, 106, 106);
+}
+/* I'm totally stumped on the lines between the links
+they're still clickable and this solution is clunky at best
+also theres the <strong> for 'awesome' web developer but that
+can easily be converted into a span class cant it? i didnt want to mess
+with the original text though */
