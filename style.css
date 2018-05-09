@@ -2,22 +2,67 @@
     background: rgb(68, 68, 68);
     color: #FFFFFF;
 }
-head {
-    
+html {
+
 }
 body {
-    margin: 30;
+    margin: 40 auto;
     border: 4px solid rgb(120, 120, 120);
+    width: 560px;
+    box-align: center;
+    text-align: center;
 }
 main {
     border-top: 1px solid rgb(116, 116, 116);
     border-bottom: 1px solid rgb(116, 116, 116);
-    margin: ;
+    margin: 0px 30px;
+}
+h1 {
+    font-weight: 200;
+    font-style: italic;
+}
+h2 {
+    text-align: left;
+    font-family: sans-serif, Helvetica, Arial;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+p {
+    text-align: left;
 }
 a {
     color: rgb(94, 212, 165);
+    font-weight: 600;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.active {
+    color: #FFFFFF;
+    text-decoration: none;
+    pointer-events: none;
+    cursor: default;
 }
 img {
     float: right;
+    margin: 0px 0px 20px 20px;
     border: 2px solid rgb(106, 106, 106);
+    padding: 1px;
+    height: 225px;
+}
+footer {
+    margin: 20px auto;
+}
+footer a:before {
+    content: " | ";
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: rgb(106, 106, 106);
+}
+
+footer a:first-child:before{
+    content: '';
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: rgb(106, 106, 106);
 }
