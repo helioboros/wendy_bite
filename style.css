@@ -2,15 +2,13 @@
     background: rgb(68, 68, 68);
     color: #FFFFFF;
 }
-html {
-
-}
 body {
     margin: 40 auto;
     border: 4px solid rgb(120, 120, 120);
     width: 560px;
     box-align: center;
     text-align: center;
+    margin: 40px auto;
 }
 main {
     border-top: 1px solid rgb(116, 116, 116);
@@ -66,3 +64,5 @@ footer a:first-child:before{
     text-decoration: none;
     color: rgb(106, 106, 106);
 }
+/* I'm totally stumped on the lines between the links
+they're still clickable and this solution is clunky at best */
